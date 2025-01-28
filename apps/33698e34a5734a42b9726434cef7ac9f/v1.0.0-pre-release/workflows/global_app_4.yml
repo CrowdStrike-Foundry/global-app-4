@@ -1,0 +1,16 @@
+name: global app 4
+provision_on_install: true
+trigger:
+    next:
+        - send_email_1941c1fb
+actions:
+    send_email_1941c1fb:
+        id: 07413ef9ba7c47bf5a242799f59902cc
+        properties:
+            _fields:
+                - ${Trigger.CID}
+            msg: email from global app 4
+            msg_type: text
+            subject: email from global app 4
+            to:
+                - sasi.panja@crowdstrike.com
