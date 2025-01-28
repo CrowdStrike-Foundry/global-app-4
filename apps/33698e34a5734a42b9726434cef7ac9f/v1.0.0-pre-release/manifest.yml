@@ -1,0 +1,29 @@
+app_id: 33698e34a5734a42b9726434cef7ac9f
+name: global app 4
+description: ""
+logo: ""
+manifest_version: ""
+ignored: []
+ui:
+    homepage: ""
+    extensions: []
+    pages: {}
+    dashboards: {}
+    navigation: {}
+api_integrations: []
+rtr_scripts: []
+collections: []
+auth:
+    scopes: []
+    permissions: {}
+    roles: []
+functions: []
+workflows:
+    - id: b809ad0703e049c8806e536fe7b21269
+      name: global app 4
+      path: workflows/global_app_4.yml
+parsers: []
+logscale:
+    saved_searches: []
+lookup_files: []
+app_docs: []
